@@ -10,4 +10,3 @@ tmp/**
 node_modules/
 .sass-cache
 index.html
-package-lock.json
