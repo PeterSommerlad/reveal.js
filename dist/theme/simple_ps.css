@@ -142,6 +142,11 @@
   text-align: left;
   margin: 0 0 0 1em; }
 
+.reveal dl p {
+  margin-top: 0;
+}
+
+
 .reveal ol {
   list-style-type: decimal; }
 
@@ -301,5 +306,10 @@
  * PRINT BACKGROUND
  *********************************************/
 @media print {
-  .backgrounds {
-    background-color: #fff; } }
+/*  .backgrounds {
+    background-color: #fff; } */
+    .slide-number, .slide-number-pdf {
+      color: #000;
+    }
+  
+  }
