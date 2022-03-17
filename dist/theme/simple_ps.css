@@ -306,10 +306,10 @@
  * PRINT BACKGROUND
  *********************************************/
 @media print {
-/*  .backgrounds {
-    background-color: #fff; } */
+  .backgrounds {
+    background-color: #fff; } 
     .slide-number, .slide-number-pdf {
-      color: #000;
+      color: #F00;
     }
   
   }

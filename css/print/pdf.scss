@@ -7,7 +7,7 @@
 
 html.print-pdf {
 	* {
-		-webkit-print-color-adjust: exact;
+		//print-color-adjust: exact; //webkit-print-color-adjust
 	}
 
 	& {
@@ -34,11 +34,19 @@ html.print-pdf {
 		display: none !important;
 	}
 
-	.reveal pre code {
-		overflow: hidden !important;
-		font-family: Courier, 'Courier New', monospace !important;
+	.reveal pre {
+    box-shadow: none !important;
+		font-family: "Fira Mono", Courier, monospace !important; /*Courier, 'Courier New',*/
 	}
+	.reveal code {
+    box-shadow: none !important;
+		font-family: "Fira Mono", Courier, monospace !important; /*Courier, 'Courier New',*/
+	}
+  
+  .reveal blockquote {
+    box-shadow: none !important;
 
+  }
 	.reveal {
 		width: auto !important;
 		height: auto !important;
@@ -146,8 +154,9 @@ html.print-pdf {
 	.reveal .slide-number-pdf {
 		display: block;
 		position: absolute;
-		font-size: 14px;
+		font-size: 16px;
     color: #000;
+    background-color: #fff;
 	}
 
 	/* This accessibility tool is not useful in PDF and breaks it visually */

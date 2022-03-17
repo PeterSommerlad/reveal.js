@@ -168,5 +168,12 @@
 			font-size: inherit !important;
 			color: inherit !important;
 		}
+  	.reveal .slide-number-pdf {
+  		display: block;
+  		position: absolute;
+  		font-size: 14px;
+      color: #000;
+  	}
+    
 	}
 }
